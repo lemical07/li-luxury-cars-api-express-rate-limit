@@ -1,0 +1,33 @@
+{
+  "name": "li-luxury-cars-api-express-rate-limit",
+  "version": "1.0.0",
+  "description": "A luxury cars REST API built with Express.js, using the express-rate-limit library to limit incoming requests and prevent API abuse.",
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "Rate-Limit",
+    "Nodemon"
+  ],
+  "homepage": "https://github.com/lemical07/li-luxury-cars-api-express-rate-limit#readme",
+  "bugs": {
+    "url": "https://github.com/lemical07/li-luxury-cars-api-express-rate-limit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemical07/li-luxury-cars-api-express-rate-limit.git"
+  },
+  "license": "ISC",
+  "author": "lemical07",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
